@@ -1,43 +1,23 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Linketree</title>
     <link rel="stylesheet" href="style.css">
-    <meta name="description" content="Andinho — engenheiro de software. Links para LinkedIn, GitHub e portfólio." />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="site-header" role="banner">
-        <div class="profile">
-            <svg role="img" aria-label="Avatar" class="avatar" viewBox="0 0 64 64" width="72" height="72" xmlns="http://www.w3.org/2000/svg">
-                <rect width="64" height="64" rx="12" fill="#0f172a" />
-                <text x="50%" y="50%" text-anchor="middle" dy=".35em" font-family="Inter, Arial, sans-serif" font-size="28" fill="#06b6d4">A</text>
-            </svg>
-            <div>
-                <h1>Andinho</h1>
-                <h2>Engenheiro de software</h2>
-            </div>
-        </div>
-    </header>
-    <main class="container" role="main">
-        <p class="lead">Bem-vindo! Aqui você encontra todos os meus links e projetos em um só lugar.</p>
+  <div class="container">
+    <img src="perfil.jfif" alt="Foto">
+    <h1>Andinho</h1>
+    <h2>Engenheiro de Software</h2>
+    <p>Vamos lá? Escolha um dos links e conecte-se comigo.</p>
 
-        <nav class="links" aria-label="Links pessoais">
-            <a class="link-btn link-linkedin" href="https://www.linkedin.com/in/wanderson-silva-562311364/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Andinho">LinkedIn</a>
-            <a class="link-btn link-github" href="https://github.com/Andinhoo24" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Andinho">GitHub</a>
-            <a class="link-btn link-portfolio" href="https://andinhoo24.github.io/wandersonvsilva/" target="_blank" rel="noopener noreferrer" aria-label="Portfolio de Andinho">Portfólio</a>
-        </nav>
-    </main>
+    <a class="button" href="https://www.linkedin.com/in/wanderson-silva-562311364/">LinkedIn</a>
+    <a class="button" href="https://github.com/Andinhoo24">GitHub</a>
+    <a class="button" href="https://www.instagram.com/andinh0zx/">Instagram</a>
+    <a class="button" href="mailto:andersonsilva2022@gamil.com">E-mail</a>
+</div>
 
-    <footer class="site-footer" role="contentinfo">
-        <small>© <span id="year"></span> Andinho. Todos os direitos reservados.</small>
-    </footer>
-
-    <script>
-        // Seta ano atual no rodapé
-        document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
 </body>
 </html>
