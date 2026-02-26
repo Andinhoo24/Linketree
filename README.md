@@ -7,16 +7,10 @@ Como executar localmente:
 1. Abra o diretório do projeto:
 
 ```sh
-cd /home/andinho/Documentos/GitHub/Linketree
+cd /home/dev/Documentos/GitHub/Linketree
 ```
 
-2. Inicie um servidor HTTP (Python 3):
-
-```sh
-python3 -m http.server 8000
-```
-
-3. Abra no navegador: http://localhost:8000
+2. Abra no navegador: http://localhost:8000
 
 Alterações realizadas:
 - HTML reescrito com marcação semântica (`header`, `main`, `nav`, `footer`).
