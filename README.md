@@ -4,7 +4,7 @@ Uma aplicação web inspirada no Linktree, desenvolvida para centralizar e compa
 
 ## Preview
 
-🔗 Deploy: https://linktree-six.vercel.app
+🔗 Deploy: [https://linktree-six.vercel.app](https://linketree-2qlbsuey4-wanderson-silvas-projects-8c52e58f.vercel.app/)
 
 (Hospedado na Vercel)
 
