@@ -1,23 +1,41 @@
-# Linketree - Andinho
+# Linktree Clone
 
-Página simples em HTML/CSS para centralizar links pessoais.
+Uma aplicação web inspirada no Linktree, desenvolvida para centralizar e compartilhar meus principais links profissionais em uma única página.
 
-Como executar localmente:
+## Preview
 
-1. Abra o diretório do projeto:
+🔗 Deploy: https://linktree-six.vercel.app
 
-```sh
-cd /home/dev/Documentos/GitHub/Linketree
-```
+(Hospedado na Vercel)
 
-2. Abra no navegador: http://localhost:8000
+## Objetivo do Projeto
 
-Alterações realizadas:
-- HTML reescrito com marcação semântica (`header`, `main`, `nav`, `footer`).
-- Links convertidos para `a` com classes (`.link-btn`) ao invés de `button > a`.
-- Acessibilidade melhorada com `aria-labels` e focus styles.
-- CSS atualizado: layout centrado, card de conteúdo, link styles, animações e suporte a `prefers-reduced-motion`.
+Este projeto foi desenvolvido com o objetivo de:
 
-Sugestões futuras:
-- Adicionar imagem de perfil real ou ícones (SVG) para links; usar `og:` e `twitter:` meta tags para melhor social sharing.
-- Considerar usar um gerador de site estático (ex: Hugo, Jekyll) para páginas maiores.
+Praticar estruturação de layout
+
+Trabalhar estilização e responsividade
+
+Melhorar organização de código
+
+Publicar e versionar um projeto real
+
+## Tecnologias Utilizadas
+
+HTML
+
+CSS
+
+JavaScript (se estiver usando)
+
+Vercel (deploy)
+
+## Layout
+
+Tema escuro
+
+Avatar centralizado
+
+Botões estilizados com hover
+
+Estrutura simples e responsiva
